@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <style>
+        .wrapper{text-align: center;}
+        button {
+            position: absolute;
+            top: 50%;
+        }
+        body {
+            background-color: slateblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <button onclick="change()">Cambiar color</button>
+    </div>
+    <script>
+        function change(){
+            var r = Math.floor(Math.random() * 256);
+            var g = Math.floor(Math.random() * 256);
+            var b = Math.floor(Math.random() * 256);
+            var color = "rgb(" + r + "," + g + "," + b + ")"
+            document.body.style.backgroundColor = color;
+        }
+    </script>
+</body>
+</html>
