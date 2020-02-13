@@ -20,7 +20,7 @@ def juego(end = 100):
                 print(f'Te tomaron {numero_intentos} intentos')
                 fin = True
             elif prueba < numero_secreto:
-                print('Lo siento, ¡inténtalo dSe nuevo! Muy bajo.')
+                print('Lo siento, ¡inténtalo de nuevo! Muy bajo.')
             else:
                 print('Lo siento, ¡inténtalo de nuevo! Muy alto.')
 
