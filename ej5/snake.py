@@ -1,9 +1,9 @@
 import math
 import time
 import random
-import numpy as np
-import pygame
 
+import pygame
+# ^^^necesita pygame para funcionar^^^
 
 class snake:
     # Intialize the pygame
